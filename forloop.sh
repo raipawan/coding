@@ -1,11 +1,11 @@
-for x in {1..10}
-rem = $(( $x % 2 ))
+for y in {1..20}
+rem = $(( $y% 2 ))
 do
 if [ $rem -eq 0 ]
 then
-	echo  " $x is an even number"
+	echo  " $y is an even number"
 else 
-	echo   "$x is an odd number"
+	echo   "$y is an odd number"
 fi
 done
 
