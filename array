@@ -1,2 +1,0 @@
-arr=( my name is khan )
-echo @{arr[@]}
