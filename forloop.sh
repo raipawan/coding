@@ -1,4 +1,4 @@
-for x in {1..10}
+for x in {1..20}
 rem = $(( $x%2 ))
 do
 if [ $rem -eq 0 ]
