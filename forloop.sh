@@ -1,5 +1,5 @@
 for x in {1..10}
-rem = $(( $x%2 ))
+rem = $(( $x % 2 ))
 do
 if [ $rem -eq 0 ]
 then
