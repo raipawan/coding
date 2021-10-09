@@ -10,25 +10,25 @@ do
 echo "$num is a prime number"
 	fi
 
-exit 0
+rem=0
+temp=0
+while [ $num -gt 0 ]
+	do
+		rem=$(($num%10));
+		num=$(($num/10));
+		temp=$(($temp*10+$rem));
 	done
-s=0 
-rev=""
-temp=$num 
-
-while [ $num -gt 0 ] 
+	echo $temp is the palindrome of the number;
+for(( i=2;i<=$temp/2; i++))
 do
-
-	s=$(( $num % 10 )
-	num=$(( $num / 10 )) 
-	
-	rev=$( echo ${rev}${s} ) 
-done
-
-if [ $temp -eq $rev ]; 
-then
-	echo "Number is palindrome"
-else
-	echo "Number is NOT palindrome"
+  rem=$(( temp%i ))
+  if [ $rem -eq 0 ]
+   then 
+    echo "$temp is not a prime number"
+  else 
+echo "$temp is a  prime number"
 fi
-
+exit 0
+done
+exit 0
+done
