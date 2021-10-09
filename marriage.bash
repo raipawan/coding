@@ -21,5 +21,5 @@ then
         echo "$name is a female and she is not eligilbe to marriage"
        fi
 	   else 
-	   echo "too old for marriage"
+	   echo 'too old for marriage'
  fi
